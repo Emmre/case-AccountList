@@ -14,7 +14,7 @@ import SelectBox from "../components/SelectBox";
 
 const Login: FC = () => {
   const { t } = useTranslation();
-  let getItem = JSON.parse(localStorage.getItem("isLogin") as string);
+  let getItem = JSON.parse(localStorage.getItem("isLogin"));
 
   const [inputMail, setValue] = useState(getItem?.email || "");
   const [inputPassword, setPassword] = useState(getItem?.password || "");
