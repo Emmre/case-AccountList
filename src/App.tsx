@@ -17,7 +17,6 @@ const App = () => {
           <Route path="/" element={<Login />} />
           <Route path="/myList" element={<Shopping />} />
         </Routes>
-        <div className="push" />
       </Content>
       <Navbar position={path === "/"} />
     </Grid>
