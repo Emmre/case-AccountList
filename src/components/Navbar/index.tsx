@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { NavbarContent, IconBox } from "./styled";
@@ -6,14 +6,10 @@ import list from "../../Icons/list.svg";
 import user from "../../Icons/user.svg";
 import "../../translations/i18n";
 
-interface INavbarProps {
-  position: boolean;
-}
-
-const Navbar: FC<INavbarProps> = ({ position }) => {
+const Navbar = () => {
   const { t } = useTranslation();
   return (
-    <NavbarContent position={position}>
+    <NavbarContent>
       <Link to="/myList">
         <IconBox>
           <img src={list} width={20} height={20} alt="icon" loading="lazy" />

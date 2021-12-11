@@ -1,10 +1,6 @@
 import styled from "styled-components";
 
-interface NavbarProps {
-  position?: boolean;
-}
-
-export const NavbarContent = styled.div<NavbarProps>`
+export const NavbarContent = styled.div`
   width: 100%;
   height: 88px;
   background-color: #fafafa;
