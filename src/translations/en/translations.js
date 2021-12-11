@@ -1,0 +1,15 @@
+export const TRANSLATIONS_EN = {
+  list: "List",
+  account: "Account",
+  name: "Random Name",
+  locale: "EN",
+  language: "English",
+  signUp: "Sign Up",
+  logOut: "Log Out",
+  addBasket: "Add to basket",
+  resultItems: "Total of products",
+  result: "Result",
+  tax: "Taxes + Cargo",
+  total: "Grand Total",
+  money: "$",
+};
