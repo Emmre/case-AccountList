@@ -17,4 +17,4 @@
 
 
 <h3 align="left">How do you run it?</h3>
-<h4>Terminal => yarn start</bold>
+<h4>Terminal => yarn && yarn start</bold>
